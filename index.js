@@ -113,3 +113,76 @@ if (a > 0) {
 } else {
   alert ('Неверно!');
 }
+
+// logical-operators
+let age;
+
+// Task1
+if (age >= 14 && age <= 90);
+
+// Task2
+if (age < 14 || age > 90)
+
+if (!(age < 14 || age > 90))
+
+// Task3
+if (-1 || 0) alert('first'); // не выполнится
+if (-1 && 0) alert( 'second' ); // выполнится, результат -1
+if (null || -1 && 1) alert( 'third' ); //выполнится, результат 1
+
+// Task4
+let login = prompt('Password:');
+
+if (login == "Админ") {
+  let password = prompt('Пароль:');{
+    if (password == "Я главный") {
+      alert('Здравствуйте!');
+    } else if (password == "" || password == null) {
+      alert('Отменено');
+    } else {
+      alert('Неверный пароль');
+    }
+  }
+} else if (login == '' || login = null){
+  alert('Отменено');
+} else {
+  alert('Неверный пароль');
+}
+
+// Task5
+let a = prompt("Число:");
+
+if (a > 0 && a < 5) {
+  alert('Верно!');
+} else {
+  alert('Неверно!');
+}
+
+// Task6
+let a = prompt("Число:");
+
+if (a == 0 || a == 2) {
+  alert(Number(a += 7));
+} else {
+  alert(a /= 10);
+}
+
+// Task7
+let a = 3;
+let b = 5;
+
+if (a == 0 || a <1 && b >= 3) {
+  alert(a + b);
+} else {
+  alert(a - b);
+}
+
+// Task8
+let a = 13;
+let b = 12;
+
+if (a > 2 && a < 11 || b >= 6 && b < 14) {
+  alert('Верно!');
+} else {
+  alert('Неверно!');
+}
