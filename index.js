@@ -186,3 +186,52 @@ if (a > 2 && a < 11 || b >= 6 && b < 14) {
 } else {
   alert('Неверно!');
 }
+
+// ЦИКЛЫ
+
+// Task1
+for (let n = 1; n <= 50; n++){
+  console.log(n);
+}
+
+let n = 1;
+while (n <= 50){
+  console.log(n);
+  n++;
+}
+
+// Task2
+let n = 1;
+while (n <= 100) {
+  console.log(n);
+  n++;
+}
+
+// Task3
+let n = 11;
+while (n >= 11 && n <= 33) {
+  console.log(n);
+  n++;
+} 
+
+// Task4
+for (let n = 0;n <= 100; n++) {
+  if(n % 2 == 0) {
+    console.log(n);
+  }
+}
+
+// Task5
+let sum = 0;
+for(let n = 1; n <= 100; n++){
+  sum = sum + n;
+alert(`Сумма: ${sum}`);
+}
+
+// Task6
+let num = 0;
+for (let n = 1000; n >= 50 ;num++) {
+  if (n = n/2);
+  alert (`Количество итераций: ${num}`);
+  alert (`Число: ${n}`);
+} 
